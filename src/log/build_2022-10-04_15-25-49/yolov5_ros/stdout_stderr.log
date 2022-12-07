@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/yolov5_ros/yolov5_ros.egg-info
+writing ../../build/yolov5_ros/yolov5_ros.egg-info/PKG-INFO
+writing dependency_links to ../../build/yolov5_ros/yolov5_ros.egg-info/dependency_links.txt
+writing entry points to ../../build/yolov5_ros/yolov5_ros.egg-info/entry_points.txt
+writing requirements to ../../build/yolov5_ros/yolov5_ros.egg-info/requires.txt
+writing top-level names to ../../build/yolov5_ros/yolov5_ros.egg-info/top_level.txt
+writing manifest file '../../build/yolov5_ros/yolov5_ros.egg-info/SOURCES.txt'
+reading manifest file '../../build/yolov5_ros/yolov5_ros.egg-info/SOURCES.txt'
+writing manifest file '../../build/yolov5_ros/yolov5_ros.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/eit-lab/ros2_karan_ws/src/build/yolov5_ros/build
+creating /home/eit-lab/ros2_karan_ws/src/build/yolov5_ros/build/lib
+creating /home/eit-lab/ros2_karan_ws/src/build/yolov5_ros/build/lib/yolov5_ros
+copying yolov5_ros/__init__.py -> /home/eit-lab/ros2_karan_ws/src/build/yolov5_ros/build/lib/yolov5_ros
+copying yolov5_ros/export.py -> /home/eit-lab/ros2_karan_ws/src/build/yolov5_ros/build/lib/yolov5_ros
+copying yolov5_ros/main.py -> /home/eit-lab/ros2_karan_ws/src/build/yolov5_ros/build/lib/yolov5_ros
+running install
+running install_lib
+creating /home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/lib/python3.8/site-packages/yolov5_ros
+copying /home/eit-lab/ros2_karan_ws/src/build/yolov5_ros/build/lib/yolov5_ros/__init__.py -> /home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/lib/python3.8/site-packages/yolov5_ros
+copying /home/eit-lab/ros2_karan_ws/src/build/yolov5_ros/build/lib/yolov5_ros/export.py -> /home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/lib/python3.8/site-packages/yolov5_ros
+copying /home/eit-lab/ros2_karan_ws/src/build/yolov5_ros/build/lib/yolov5_ros/main.py -> /home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/lib/python3.8/site-packages/yolov5_ros
+byte-compiling /home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/lib/python3.8/site-packages/yolov5_ros/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/lib/python3.8/site-packages/yolov5_ros/export.py to export.cpython-38.pyc
+byte-compiling /home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/lib/python3.8/site-packages/yolov5_ros/main.py to main.cpython-38.pyc
+running install_data
+creating /home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/share/ament_index
+creating /home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/share/ament_index/resource_index
+creating /home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/share/ament_index/resource_index/packages
+copying resource/yolov5_ros -> /home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/share/ament_index/resource_index/packages
+copying package.xml -> /home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/share/yolov5_ros
+copying ./launch/yolov5s_simple.launch.py -> /home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/share/yolov5_ros
+running install_egg_info
+Copying ../../build/yolov5_ros/yolov5_ros.egg-info to /home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/lib/python3.8/site-packages/yolov5_ros-0.2.0-py3.8.egg-info
+running install_scripts
+Installing yolov5_ros script to /home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/lib/yolov5_ros
+writing list of installed files to '/home/eit-lab/ros2_karan_ws/src/build/yolov5_ros/install.log'

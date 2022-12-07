@@ -1,0 +1,48 @@
+[0.883s] Invoking command in '/home/eit-lab/ros2_karan_ws/src/cv_basics': AMENT_PREFIX_PATH=/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/cv_basics build --build-base /home/eit-lab/ros2_karan_ws/src/build/cv_basics/build install --prefix /home/eit-lab/ros2_karan_ws/src/install/cv_basics --record /home/eit-lab/ros2_karan_ws/src/build/cv_basics/install.log --single-version-externally-managed
+[1.091s] running egg_info
+[1.092s] creating ../build/cv_basics/cv_basics.egg-info
+[1.092s] writing ../build/cv_basics/cv_basics.egg-info/PKG-INFO
+[1.092s] writing dependency_links to ../build/cv_basics/cv_basics.egg-info/dependency_links.txt
+[1.092s] writing entry points to ../build/cv_basics/cv_basics.egg-info/entry_points.txt
+[1.092s] writing requirements to ../build/cv_basics/cv_basics.egg-info/requires.txt
+[1.092s] writing top-level names to ../build/cv_basics/cv_basics.egg-info/top_level.txt
+[1.094s] writing manifest file '../build/cv_basics/cv_basics.egg-info/SOURCES.txt'
+[1.125s] reading manifest file '../build/cv_basics/cv_basics.egg-info/SOURCES.txt'
+[1.126s] writing manifest file '../build/cv_basics/cv_basics.egg-info/SOURCES.txt'
+[1.126s] running build
+[1.126s] running build_py
+[1.126s] creating /home/eit-lab/ros2_karan_ws/src/build/cv_basics/build
+[1.126s] creating /home/eit-lab/ros2_karan_ws/src/build/cv_basics/build/lib
+[1.126s] creating /home/eit-lab/ros2_karan_ws/src/build/cv_basics/build/lib/cv_basics
+[1.126s] copying cv_basics/__init__.py -> /home/eit-lab/ros2_karan_ws/src/build/cv_basics/build/lib/cv_basics
+[1.127s] copying cv_basics/filtered_scan.py -> /home/eit-lab/ros2_karan_ws/src/build/cv_basics/build/lib/cv_basics
+[1.127s] copying cv_basics/detect.py -> /home/eit-lab/ros2_karan_ws/src/build/cv_basics/build/lib/cv_basics
+[1.159s] copying cv_basics/webcam_sub.py -> /home/eit-lab/ros2_karan_ws/src/build/cv_basics/build/lib/cv_basics
+[1.160s] copying cv_basics/webcam_pub.py -> /home/eit-lab/ros2_karan_ws/src/build/cv_basics/build/lib/cv_basics
+[1.160s] running install
+[1.161s] running install_lib
+[1.162s] creating /home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages/cv_basics
+[1.162s] copying /home/eit-lab/ros2_karan_ws/src/build/cv_basics/build/lib/cv_basics/__init__.py -> /home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages/cv_basics
+[1.162s] copying /home/eit-lab/ros2_karan_ws/src/build/cv_basics/build/lib/cv_basics/filtered_scan.py -> /home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages/cv_basics
+[1.162s] copying /home/eit-lab/ros2_karan_ws/src/build/cv_basics/build/lib/cv_basics/detect.py -> /home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages/cv_basics
+[1.162s] copying /home/eit-lab/ros2_karan_ws/src/build/cv_basics/build/lib/cv_basics/webcam_sub.py -> /home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages/cv_basics
+[1.162s] copying /home/eit-lab/ros2_karan_ws/src/build/cv_basics/build/lib/cv_basics/webcam_pub.py -> /home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages/cv_basics
+[1.163s] byte-compiling /home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages/cv_basics/__init__.py to __init__.cpython-38.pyc
+[1.164s] byte-compiling /home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages/cv_basics/filtered_scan.py to filtered_scan.cpython-38.pyc
+[1.164s] byte-compiling /home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages/cv_basics/detect.py to detect.cpython-38.pyc
+[1.166s] byte-compiling /home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages/cv_basics/webcam_sub.py to webcam_sub.cpython-38.pyc
+[1.166s] byte-compiling /home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages/cv_basics/webcam_pub.py to webcam_pub.cpython-38.pyc
+[1.167s] running install_data
+[1.168s] creating /home/eit-lab/ros2_karan_ws/src/install/cv_basics/share/ament_index
+[1.168s] creating /home/eit-lab/ros2_karan_ws/src/install/cv_basics/share/ament_index/resource_index
+[1.168s] creating /home/eit-lab/ros2_karan_ws/src/install/cv_basics/share/ament_index/resource_index/packages
+[1.168s] copying resource/cv_basics -> /home/eit-lab/ros2_karan_ws/src/install/cv_basics/share/ament_index/resource_index/packages
+[1.168s] copying package.xml -> /home/eit-lab/ros2_karan_ws/src/install/cv_basics/share/cv_basics
+[1.168s] running install_egg_info
+[1.169s] Copying ../build/cv_basics/cv_basics.egg-info to /home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages/cv_basics-0.0.0-py3.8.egg-info
+[1.170s] running install_scripts
+[1.187s] Installing filtere_scan script to /home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/cv_basics
+[1.187s] Installing img_publisher script to /home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/cv_basics
+[1.187s] Installing img_subscriber script to /home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/cv_basics
+[1.187s] writing list of installed files to '/home/eit-lab/ros2_karan_ws/src/build/cv_basics/install.log'
+[1.219s] Invoked command in '/home/eit-lab/ros2_karan_ws/src/cv_basics' returned '0': AMENT_PREFIX_PATH=/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/cv_basics build --build-base /home/eit-lab/ros2_karan_ws/src/build/cv_basics/build install --prefix /home/eit-lab/ros2_karan_ws/src/install/cv_basics --record /home/eit-lab/ros2_karan_ws/src/build/cv_basics/install.log --single-version-externally-managed

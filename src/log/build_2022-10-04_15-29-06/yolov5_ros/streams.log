@@ -1,0 +1,21 @@
+[0.814s] Invoking command in '/home/eit-lab/ros2_karan_ws/src/YOLOv5-ROS/yolov5_ros': CMAKE_PREFIX_PATH=/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs:/home/eit-lab/ros2_karan_ws/src/install/rplidar_ros:/home/eit-lab/ros2_karan_ws/install/yolov5_ros:/home/eit-lab/ros2_karan_ws/install/rplidar_ros LD_LIBRARY_PATH=/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs/lib:/home/eit-lab/ros2_karan_ws/src/install/rplidar_ros/lib:/home/eit-lab/ros2_karan_ws/install/rplidar_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/install/yolov5_ros/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/install/cv_basics/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov5_ros build --build-base /home/eit-lab/ros2_karan_ws/src/build/yolov5_ros/build install --prefix /home/eit-lab/ros2_karan_ws/src/install/yolov5_ros --record /home/eit-lab/ros2_karan_ws/src/build/yolov5_ros/install.log --single-version-externally-managed
+[1.023s] running egg_info
+[1.023s] writing ../../build/yolov5_ros/yolov5_ros.egg-info/PKG-INFO
+[1.024s] writing dependency_links to ../../build/yolov5_ros/yolov5_ros.egg-info/dependency_links.txt
+[1.024s] writing entry points to ../../build/yolov5_ros/yolov5_ros.egg-info/entry_points.txt
+[1.024s] writing requirements to ../../build/yolov5_ros/yolov5_ros.egg-info/requires.txt
+[1.024s] writing top-level names to ../../build/yolov5_ros/yolov5_ros.egg-info/top_level.txt
+[1.053s] reading manifest file '../../build/yolov5_ros/yolov5_ros.egg-info/SOURCES.txt'
+[1.054s] writing manifest file '../../build/yolov5_ros/yolov5_ros.egg-info/SOURCES.txt'
+[1.054s] running build
+[1.055s] running build_py
+[1.055s] running install
+[1.055s] running install_lib
+[1.056s] running install_data
+[1.057s] running install_egg_info
+[1.059s] removing '/home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/lib/python3.8/site-packages/yolov5_ros-0.2.0-py3.8.egg-info' (and everything under it)
+[1.059s] Copying ../../build/yolov5_ros/yolov5_ros.egg-info to /home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/lib/python3.8/site-packages/yolov5_ros-0.2.0-py3.8.egg-info
+[1.059s] running install_scripts
+[1.066s] Installing yolov5_ros script to /home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/lib/yolov5_ros
+[1.066s] writing list of installed files to '/home/eit-lab/ros2_karan_ws/src/build/yolov5_ros/install.log'
+[1.092s] Invoked command in '/home/eit-lab/ros2_karan_ws/src/YOLOv5-ROS/yolov5_ros' returned '0': CMAKE_PREFIX_PATH=/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs:/home/eit-lab/ros2_karan_ws/src/install/rplidar_ros:/home/eit-lab/ros2_karan_ws/install/yolov5_ros:/home/eit-lab/ros2_karan_ws/install/rplidar_ros LD_LIBRARY_PATH=/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs/lib:/home/eit-lab/ros2_karan_ws/src/install/rplidar_ros/lib:/home/eit-lab/ros2_karan_ws/install/rplidar_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/install/yolov5_ros/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/install/cv_basics/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov5_ros build --build-base /home/eit-lab/ros2_karan_ws/src/build/yolov5_ros/build install --prefix /home/eit-lab/ros2_karan_ws/src/install/yolov5_ros --record /home/eit-lab/ros2_karan_ws/src/build/yolov5_ros/install.log --single-version-externally-managed

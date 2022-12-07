@@ -1,0 +1,23 @@
+[0.834s] Invoking command in '/home/eit-lab/ros2_karan_ws/src/cv_basics': CMAKE_PREFIX_PATH=/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs:/home/eit-lab/ros2_karan_ws/src/install/rplidar_ros:/home/eit-lab/ros2_karan_ws/install/yolov5_ros:/home/eit-lab/ros2_karan_ws/install/rplidar_ros LD_LIBRARY_PATH=/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs/lib:/home/eit-lab/ros2_karan_ws/src/install/rplidar_ros/lib:/home/eit-lab/ros2_karan_ws/install/rplidar_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/install/yolov5_ros/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/install/cv_basics/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../build/cv_basics build --build-base /home/eit-lab/ros2_karan_ws/src/build/cv_basics/build install --prefix /home/eit-lab/ros2_karan_ws/src/install/cv_basics --record /home/eit-lab/ros2_karan_ws/src/build/cv_basics/install.log --single-version-externally-managed
+[1.035s] running egg_info
+[1.036s] writing ../build/cv_basics/cv_basics.egg-info/PKG-INFO
+[1.036s] writing dependency_links to ../build/cv_basics/cv_basics.egg-info/dependency_links.txt
+[1.036s] writing entry points to ../build/cv_basics/cv_basics.egg-info/entry_points.txt
+[1.036s] writing requirements to ../build/cv_basics/cv_basics.egg-info/requires.txt
+[1.037s] writing top-level names to ../build/cv_basics/cv_basics.egg-info/top_level.txt
+[1.067s] reading manifest file '../build/cv_basics/cv_basics.egg-info/SOURCES.txt'
+[1.068s] writing manifest file '../build/cv_basics/cv_basics.egg-info/SOURCES.txt'
+[1.068s] running build
+[1.068s] running build_py
+[1.069s] running install
+[1.070s] running install_lib
+[1.071s] running install_data
+[1.072s] running install_egg_info
+[1.073s] removing '/home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages/cv_basics-0.0.0-py3.8.egg-info' (and everything under it)
+[1.073s] Copying ../build/cv_basics/cv_basics.egg-info to /home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages/cv_basics-0.0.0-py3.8.egg-info
+[1.074s] running install_scripts
+[1.091s] Installing filtere_scan script to /home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/cv_basics
+[1.091s] Installing img_publisher script to /home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/cv_basics
+[1.091s] Installing img_subscriber script to /home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/cv_basics
+[1.092s] writing list of installed files to '/home/eit-lab/ros2_karan_ws/src/build/cv_basics/install.log'
+[1.117s] Invoked command in '/home/eit-lab/ros2_karan_ws/src/cv_basics' returned '0': CMAKE_PREFIX_PATH=/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs:/home/eit-lab/ros2_karan_ws/src/install/rplidar_ros:/home/eit-lab/ros2_karan_ws/install/yolov5_ros:/home/eit-lab/ros2_karan_ws/install/rplidar_ros LD_LIBRARY_PATH=/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs/lib:/home/eit-lab/ros2_karan_ws/src/install/rplidar_ros/lib:/home/eit-lab/ros2_karan_ws/install/rplidar_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/src/install/bboxes_ex_msgs/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/src/install/yolov5_ros/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/src/install/cv_basics/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/install/yolov5_ros/lib/python3.8/site-packages:/home/eit-lab/ros2_karan_ws/install/cv_basics/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../build/cv_basics build --build-base /home/eit-lab/ros2_karan_ws/src/build/cv_basics/build install --prefix /home/eit-lab/ros2_karan_ws/src/install/cv_basics --record /home/eit-lab/ros2_karan_ws/src/build/cv_basics/install.log --single-version-externally-managed
