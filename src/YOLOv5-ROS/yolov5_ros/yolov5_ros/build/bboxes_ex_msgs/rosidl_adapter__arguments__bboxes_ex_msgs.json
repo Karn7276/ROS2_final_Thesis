@@ -1,0 +1,7 @@
+{
+  "package_name": "bboxes_ex_msgs",
+  "non_idl_tuples": [
+    "/home/eit-lab/ros2_karan_ws/src/YOLOv5-ROS/yolov5_ros/yolov5_ros/bbox_ex_msgs:msg/BoundingBox.msg",
+    "/home/eit-lab/ros2_karan_ws/src/YOLOv5-ROS/yolov5_ros/yolov5_ros/bbox_ex_msgs:msg/BoundingBoxes.msg"
+  ]
+}
