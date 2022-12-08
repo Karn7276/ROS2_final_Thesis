@@ -1,0 +1,167 @@
+[0.280s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.280s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fce40da56a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fce40da56a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fce40da5be0>)
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.334s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ros'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['cmake', 'python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'cmake'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['python_setup_py']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python_setup_py'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(bbox_ex_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(bbox_ex_msgs) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(bbox_ex_msgs) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(bbox_ex_msgs) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(bbox_ex_msgs) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(bbox_ex_msgs) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(bbox_ex_msgs) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(bbox_ex_msgs) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(bbox_ex_msgs) by extension 'ros'
+[0.363s] DEBUG:colcon.colcon_core.package_identification:Package 'bbox_ex_msgs' with type 'ros.ament_cmake' and name 'bboxes_ex_msgs'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.430s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install
+[0.432s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/eit-lab/ros2_karan_ws/install
+[0.435s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 260 installed packages in /opt/ros/foxy
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.567s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'bboxes_ex_msgs' is in: /home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding bboxes_ex_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'bboxes_ex_msgs' build argument 'cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'bboxes_ex_msgs' build argument 'cmake_target' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'bboxes_ex_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'bboxes_ex_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'bboxes_ex_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'bboxes_ex_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'bboxes_ex_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'bboxes_ex_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'bboxes_ex_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.569s] DEBUG:colcon.colcon_core.verb:Building package 'bboxes_ex_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/build/bboxes_ex_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs', 'merge_install': False, 'path': '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/bbox_ex_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.570s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.578s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.579s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/bbox_ex_msgs' with build type 'ament_cmake'
+[0.579s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/bbox_ex_msgs'
+[0.586s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.586s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.586s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/build/bboxes_ex_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eit-lab/ros2_karan_ws/install/cv_basics:/opt/ros/foxy /usr/bin/cmake --build /home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/build/bboxes_ex_msgs -- -j8 -l8
+[0.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/build/bboxes_ex_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eit-lab/ros2_karan_ws/install/cv_basics:/opt/ros/foxy /usr/bin/cmake --build /home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/build/bboxes_ex_msgs -- -j8 -l8
+[1.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/build/bboxes_ex_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eit-lab/ros2_karan_ws/install/cv_basics:/opt/ros/foxy /usr/bin/cmake --install /home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/build/bboxes_ex_msgs
+[1.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bboxes_ex_msgs)
+[1.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/build/bboxes_ex_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eit-lab/ros2_karan_ws/install/cv_basics:/opt/ros/foxy /usr/bin/cmake --install /home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/build/bboxes_ex_msgs
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs' for CMake module files
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs' for CMake config files
+[1.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('bboxes_ex_msgs', 'cmake_prefix_path')
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/hook/cmake_prefix_path.ps1'
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/hook/cmake_prefix_path.dsv'
+[1.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/hook/cmake_prefix_path.sh'
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/lib'
+[1.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('bboxes_ex_msgs', 'ld_library_path_lib')
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/hook/ld_library_path_lib.ps1'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/hook/ld_library_path_lib.dsv'
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/hook/ld_library_path_lib.sh'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/bin'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/lib/pkgconfig/bboxes_ex_msgs.pc'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/lib/python3.8/site-packages'
+[1.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('bboxes_ex_msgs', 'pythonpath')
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/hook/pythonpath.ps1'
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/hook/pythonpath.dsv'
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/hook/pythonpath.sh'
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/bin'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/package.ps1'
+[1.194s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/package.dsv'
+[1.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/package.sh'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/package.bash'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/package.zsh'
+[1.199s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/colcon-core/packages/bboxes_ex_msgs)
+[1.334s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bboxes_ex_msgs)
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs' for CMake module files
+[1.339s] Level 1:colcon.colcon_core.environment:checking '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs' for CMake config files
+[1.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('bboxes_ex_msgs', 'cmake_prefix_path')
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/hook/cmake_prefix_path.ps1'
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/hook/cmake_prefix_path.dsv'
+[1.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/hook/cmake_prefix_path.sh'
+[1.345s] Level 1:colcon.colcon_core.environment:checking '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/lib'
+[1.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('bboxes_ex_msgs', 'ld_library_path_lib')
+[1.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/hook/ld_library_path_lib.ps1'
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/hook/ld_library_path_lib.dsv'
+[1.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/hook/ld_library_path_lib.sh'
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/bin'
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/lib/pkgconfig/bboxes_ex_msgs.pc'
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/lib/python3.8/site-packages'
+[1.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('bboxes_ex_msgs', 'pythonpath')
+[1.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/hook/pythonpath.ps1'
+[1.357s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/hook/pythonpath.dsv'
+[1.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/hook/pythonpath.sh'
+[1.358s] Level 1:colcon.colcon_core.environment:checking '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/bin'
+[1.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/package.ps1'
+[1.363s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/package.dsv'
+[1.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/package.sh'
+[1.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/package.bash'
+[1.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/bboxes_ex_msgs/package.zsh'
+[1.366s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/bboxes_ex_msgs/share/colcon-core/packages/bboxes_ex_msgs)
+[1.367s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.368s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.368s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.368s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.378s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.378s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.378s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.410s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.413s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/local_setup.ps1'
+[1.415s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/_local_setup_util_ps1.py'
+[1.418s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/setup.ps1'
+[1.421s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/local_setup.sh'
+[1.423s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/_local_setup_util_sh.py'
+[1.424s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/setup.sh'
+[1.427s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/local_setup.bash'
+[1.428s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/setup.bash'
+[1.431s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/local_setup.zsh'
+[1.432s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eit-lab/ros2_karan_ws/src/cv_basics/cv_basics/install/setup.zsh'
