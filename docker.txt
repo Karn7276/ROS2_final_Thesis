@@ -1,0 +1,22 @@
+# Start docker with display settings on
+sudo xhost +si:localuser:root
+XAUTH=/tmp/.docker.xauth
+xauth nlist $DISPLAY | sed -e 's/^..../ffff/' | xauth -f $XAUTH nmerge -
+chmod 777 $XAUTH
+
+sudo docker run --runtime nvidia -it --rm --privileged --network host -e DISPLAY=$DISPLAY -v ~/docker_test:/tmp/.X11-unix -v $XAUTH:$XAUTH -e XAUTHORITY=$XAUTH ros:foxy-pytorch-l4t-r32.6.1
+
+
+#--rm : do this to remove files for container after stopping
+# Docker connect 
+sudo docker exec -it <container_id> bash 
+# docker stop
+sudo docker stop [OPTIONS] CONTAINER [CONTAINER...]
+# docker start
+sudo docker start [OPTIONS] CONTAINER [CONTAINER...]
+# check 
+sudo docker ps -a
+# copy some files to container
+sudo docker cp /home/jetson/Downloads/yolov5l_best.pt sharp_lamarr:/tmp/.X11-unix/yolov5
+
+alias trtexec="/usr/src/tensorrt/bin/trtexec"
